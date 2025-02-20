@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Step 1: Launching Chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Navigating to OrangeHRM login page]]>
+    </line>
+    <line>
+      <![CDATA[Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Entering username 'Admin']]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Entering password]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Waiting for dashboard to load]]>
+    </line>
+    <line>
+      <![CDATA[Login successful!]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 3 seconds before closing the browser...]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+    <line>
+      <![CDATA[Step 1: Launching Chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Step 2: Navigating to OrangeHRM login page]]>
+    </line>
+    <line>
+      <![CDATA[Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+    </line>
+    <line>
+      <![CDATA[Step 3: Entering username 'Admin']]>
+    </line>
+    <line>
+      <![CDATA[Step 4: Entering invalid password]]>
+    </line>
+    <line>
+      <![CDATA[Step 5: Clicking login button]]>
+    </line>
+    <line>
+      <![CDATA[Step 6: Waiting for error message]]>
+    </line>
+    <line>
+      <![CDATA[Error message: Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login failed as expected.]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for 3 seconds before closing the browser...]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-20T14:26:57 GMT+01:00" name="Selenium Test Suite" finished-at="2025-02-20T14:27:19 GMT+01:00" duration-ms="22066">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T14:26:57 GMT+01:00" name="Login Tests" finished-at="2025-02-20T14:27:19 GMT+01:00" duration-ms="22066">
+      <class name="part1.LoginHandlingFailure">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:part1.LoginHandlingFailure@303cf2ba]" started-at="2025-02-20T14:27:09 GMT+01:00" name="setUp" finished-at="2025-02-20T14:27:13 GMT+01:00" duration-ms="4395" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Launching Chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Navigating to OrangeHRM login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoggingIntoAppWithInvalidPassword()[pri:0, instance:part1.LoginHandlingFailure@303cf2ba]" started-at="2025-02-20T14:27:13 GMT+01:00" name="testLoggingIntoAppWithInvalidPassword" finished-at="2025-02-20T14:27:15 GMT+01:00" duration-ms="2505" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Entering username 'Admin']]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Entering invalid password]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Waiting for error message]]>
+            </line>
+            <line>
+              <![CDATA[Error message: Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Login failed as expected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoggingIntoAppWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part1.LoginHandlingFailure@303cf2ba]" started-at="2025-02-20T14:27:16 GMT+01:00" name="tearDown" finished-at="2025-02-20T14:27:19 GMT+01:00" duration-ms="3441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 3 seconds before closing the browser...]]>
+            </line>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- part1.LoginHandlingFailure -->
+      <class name="part1.FirstSeleniumTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:part1.FirstSeleniumTest@59402b8f]" started-at="2025-02-20T14:26:57 GMT+01:00" name="setUp" finished-at="2025-02-20T14:27:03 GMT+01:00" duration-ms="5981" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Step 1: Launching Chrome browser]]>
+            </line>
+            <line>
+              <![CDATA[Step 2: Navigating to OrangeHRM login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoggingIntoApp()[pri:0, instance:part1.FirstSeleniumTest@59402b8f]" started-at="2025-02-20T14:27:03 GMT+01:00" name="testLoggingIntoApp" finished-at="2025-02-20T14:27:05 GMT+01:00" duration-ms="2132" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Current URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+            </line>
+            <line>
+              <![CDATA[Step 3: Entering username 'Admin']]>
+            </line>
+            <line>
+              <![CDATA[Step 4: Entering password]]>
+            </line>
+            <line>
+              <![CDATA[Step 5: Clicking login button]]>
+            </line>
+            <line>
+              <![CDATA[Step 6: Waiting for dashboard to load]]>
+            </line>
+            <line>
+              <![CDATA[Login successful!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoggingIntoApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:part1.FirstSeleniumTest@59402b8f]" started-at="2025-02-20T14:27:05 GMT+01:00" name="tearDown" finished-at="2025-02-20T14:27:09 GMT+01:00" duration-ms="3488" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for 3 seconds before closing the browser...]]>
+            </line>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- part1.FirstSeleniumTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>
